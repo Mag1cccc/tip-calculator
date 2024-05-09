@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(181, 230, 214);
+  color: salmon;
+}
+
+.calculator {
+  margin: 100px;
+  border: 2px solid salmon;
+  border-radius: 4px;
+  padding: 10px 30px;
+}
+
+.header-text {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+label {
+  font-size: 24px;
+}
+
+input,
+select {
+  outline: none;
+  border: 0;
+  border-radius: 4px;
+  padding: 6px;
+  color: salmon;
+}
+
+input::placeholder {
+  color: salmon;
+}
+
+.output-text {
+  font-size: 28px;
+  color: rgb(6, 210, 6);
+}
+
+button {
+  font-size: 24px;
+  width: 120px;
+  padding: 6px 2px;
+  border: 1px solid salmon;
+  border-radius: 6px;
+  color: salmon;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: salmon;
+  border-color: white;
+  color: white;
+}
